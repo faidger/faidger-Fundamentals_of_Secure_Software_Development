@@ -136,7 +136,7 @@
 }
  
     // Главная функция
-    int main()
+    int ctr()
 {
        char roman[50];
        printf("Введите римское число (от I до MMMCMXCIX): ");
