@@ -14,7 +14,7 @@ int digitsCount(int n, int base) {
 // вывод числа n в системе счисления base
 void numeralSystems(int n, int base) {
     if (n >= base) {
-        numeralSystems(n / base, base); 
+        numeralSystems(n / base, base);
     }
     int digit = n % base;
     if (digit < 10) {
@@ -24,7 +24,7 @@ void numeralSystems(int n, int base) {
     }
 }
 
-int main() {
+int pec() {
     int base = 0;
     while (base < 2 || base > 16) {
         printf("========================================================\n");
