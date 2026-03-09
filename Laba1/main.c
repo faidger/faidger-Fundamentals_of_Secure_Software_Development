@@ -5,7 +5,7 @@
 #define MAX_LEN 50
 
 void res(void);  
-void per(void);
+void pec(void);
 void ctr(void);
 
 int main() {
@@ -87,7 +87,7 @@ int main() {
             res();
             break;
         case 2:
-            per();
+            pec();
             break;
         case 3:
             ctr();
